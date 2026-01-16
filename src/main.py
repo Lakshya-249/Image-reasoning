@@ -23,9 +23,10 @@ def analyze_image(image_path: str):
 
 def main():
     BASEDIR = Path(__file__).parent
-    result = analyze_image(f"{BASEDIR}/utils/temp/test2.webp")
+    image_path = f"{BASEDIR}/utils/temp/test1.webp"
+    result = analyze_image(image_path)
     output_path = save_result(
-        result, f"{BASEDIR}/utils/temp/test2.webp", f"{BASEDIR}/utils/output"
+        result, image_path, f"{BASEDIR}/utils/output"
     )
 
     print(f"\nSaved output to: {output_path}\n")

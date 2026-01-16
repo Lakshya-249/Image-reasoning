@@ -1,0 +1,24 @@
+{
+  "image": "/home/lakshya/Desktop/image_reasoning_assistant/src/utils/temp/test3.jpeg",
+  "timestamp": "2026-01-16T17:47:32.987487",
+  "result": {
+    "features": {
+      "objects": [
+        "clock"
+      ],
+      "text": [],
+      "quality": {
+        "blur_score": 1047.43,
+        "brightness": 180.63,
+        "issues": []
+      }
+    },
+    "decision": {
+      "image_quality_score": 0.8,
+      "issues_detected": false,
+      "final_verdict": "Acceptable",
+      "reasoning_summary": "Image appears to be clear and well-lit, but has some minor blur issues.",
+      "confidence": 0.95
+    }
+  }
+}
