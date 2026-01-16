@@ -1,0 +1,27 @@
+{
+  "image": "/home/lakshya/Desktop/image_reasoning_assistant/src/utils/temp/test1.webp",
+  "timestamp": "2026-01-16T09:13:37.666259",
+  "result": {
+    "features": {
+      "objects": [
+        "vase",
+        "bowl",
+        "potted plant",
+        "clock"
+      ],
+      "text": [],
+      "quality": {
+        "blur_score": 1185.84,
+        "brightness": 134.65,
+        "issues": []
+      }
+    },
+    "decision": {
+      "image_quality_score": 0.87,
+      "issues_detected": false,
+      "final_verdict": "Acceptable",
+      "reasoning_summary": "The image quality is generally good with a high resolution (implied) and no detectable issues. However, there's a slight blur effect which affects the overall quality score.",
+      "confidence": 0.9
+    }
+  }
+}

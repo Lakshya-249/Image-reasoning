@@ -1,0 +1,29 @@
+{
+  "image": "/home/lakshya/Desktop/image_reasoning_assistant/src/utils/temp/test2.webp",
+  "timestamp": "2026-01-16T09:52:09.026551",
+  "result": {
+    "features": {
+      "objects": [
+        "person",
+        "remote"
+      ],
+      "text": [],
+      "quality": {
+        "blur_score": 2889.44,
+        "brightness": 157.95,
+        "issues": []
+      }
+    },
+    "decision": {
+      "image_quality_score": 0.7,
+      "issues_detected": false,
+      "final_verdict": "Acceptable",
+      "reasoning_summary": "The image has a blur score of 2889.44 which is high, but the brightness is within a normal range. No other issues detected.",
+      "confidence": {
+        "issues_detection": 0.9,
+        "blur_detection": 0.8,
+        "verdict": 0.7
+      }
+    }
+  }
+}
